@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/logo.png" type="image/x-icon" height="50%">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,regular,500,700,900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <title>VNV-Solutions</title>
+</head>
+<body>
+    <div class="wrapper">
+        <!--<div class="cursor-test"></div>-->
+        <header class="header">
+            <div class="header__content">
+                <div class="header__logo">
+                    <img src="img/header__logo.png" alt="logo">
+                </div>
+                <nav class="header__menu menu">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a href="#why_we" class="menu__link">Why we</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#services" class="menu__link">Services</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#portfolio" class="menu__link">Our projects</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#feedback" class="menu__link">Callback</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#feedback" class="menu__link">Contacts</a>
+                        </li>
+                    </ul>
+                </nav>
+                <button class="icon-menu" type="button">
+                    <span></span>
+                </button>
+            </div>
+        </header>
+        <main class="page__main main">
+            <img class="main__background" src="img/JVA.gif" alt="background">
+            <div class = "main__container">
+                <div class="main__titles">
+                    <h1 class="main__title">
+                        We are <span>VNV Solutions</span>
+                    </h1>
+                    <h2 class="main__text">
+                        We create memorable software & positive client experience
+                    </h2>
+                </div>
+                <button class="main__button">
+                    Get Started Now!
+                </button>
+            </div>
+        </main>
+        <section id="why_we" class="page__why why">
+            <div class = "why__container">
+                <h2 class="why__title title"><span>/</span> Why we</h2>
+                <div class="why__items">
+                    <div class="why__item">
+                        <p class="why__number">/ 1</p>
+                        <p class="why__text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur praesentium velit sint adipisci culpa consectetur vero dolorem neque molestiae!
+                        </p>
+                    </div>
+                    <div class="why__item">
+                        <p class="why__number">/2</p>
+                        <p class="why__text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, amet ea ipsam omnis repudiandae eaque. Nam, excepturi nemo.
+                        </p>
+                    </div>
+                    <div class="why__item">
+                        <p class="why__number">/3</p>
+                        <p class="why__text">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non laboriosam praesentium ea culpa qui eum quibusdam aliquam consectetur.
+                        </p>
+                    </div>
+                    <div class="why__item">
+                        <p class="why__number">/4</p>
+                        <p class="why__text">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque velit vero est repudiandae veniam perferendis expedita praesentium.
+                        </p>
+                    </div>
+                    <div class="why__item">
+                        <p class="why__number">/5</p>
+                        <p class="why__text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe mollitia officiis neque facere ipsam.
+                        </p>
+                    </div>
+                    <div class="why__item">
+                        <p class="why__number">/6</p>
+                        <p class="why__text">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem qui placeat deleniti assumenda eligendi quasi fugit sint enim molestiae?
+                        </p>
+                    </div>
+                </div>
+                <div class="why__button-block">
+                    <button class="why__button">
+                        Order
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section id="services" class = "page__services services">
+            <div class = "services__container">
+                <h2 class="services__title title">
+                    <span>/ </span>Services
+                </h2>
+                <div class="services__content">
+                    <div class="services__menu">
+                        <div  class="services__menu-circles">
+                            <div  class="services__menu-circle"></div>
+                            <div  class="services__menu-circle"></div>
+                            <div  class="services__menu-circle"></div>
+                        </div>
+                        <ul class="services__menu-list">
+                            <li class="services__menu-item services__menu-item-active">
+                                <button onclick="showService(0)">
+                                    Software<br>development
+                                </button>
+                            </li>
+                            <li class="services__menu-item">
+                                <button onclick="showService(1)">
+                                    Development of a unique ERP system
+                                </button>
+                            </li>
+                            <li class="services__menu-item">
+                                <button onclick="showService(2)">
+                                    Online store development
+                                </button>
+                            </li>
+                            <li class="services__menu-item">
+                                <button onclick="showService(3)">
+                                    Support and<br>updates
+                                </button>
+                            </li>
+                            <li class="services__menu-item">
+                                <button onclick="showService(4)">
+                                    Bot<br>development
+                                </button>
+                            </li>
+                            <li class="services__menu-item">
+                                <button onclick="showService(5)">
+                                    Website<br>transferring
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="services__items">
+                        <div class="services__item services__item-active">
+                            <p class="services__description">
+                                Our software is aiming to solve your business problems and meet specific business needs. Our experienced team can develop software for a wide range of industries and applications, especially agriculture, finance, healthcare, and logistics, among others. Our goal is to deliver high-quality software that will solve your business tasks and problems, and optimize your working processes to help your business grow.
+                            </p>
+                            <div class="services__advantages">
+                                <h3 class="advantages__title">Advantages</h3>
+                                <ul class="advantages__list">
+                                    <li class="advantages__item"><span>-</span> Qualitatively</li>
+                                    <li class="advantages__item"><span>-</span> Fast</li>
+                                    <li class="advantages__item"><span>-</span> Promising</li>
+                                </ul>
+                            </div>
+                            <button class="services__order-button">
+                                I want to order!
+                            </button>
+                        </div>
+                        <div class="services__item">
+                            <p class="services__description">
+                                Developing customized ERP (Enterprise Resource Planning) systems that streamline your' business operations, improve communication between departments and automate processes. Our ERP solutions are tailored to the unique needs of your business and can be integrated with other software solutions to provide a comprehensive business management system.
+                            </p>
+                            <div class="services__advantages">
+                                <h3 class="advantages__title">Advantages</h3>
+                                <ul class="advantages__list">
+                                    <li class="advantages__item"><span>-</span> Everyone Matters</li>
+                                    <li class="advantages__item"><span>-</span> Leadership is Here To Serve</li>
+                                    <li class="advantages__item"><span>-</span> Resilient</li>
+                                </ul>
+                            </div>
+                            <button class="services__order-button">
+                                I want to order!
+                            </button>
+                        </div>
+                        <div class="services__item">
+                            <p class="services__description">
+                                We offer online-store development services for clients who want to create an online presence for their business. Our team can build and design a customized e-commerce website that is easy to use and provides a seamless user experience. Our goal is to help you increase your online sales, expand customer base, and improve overall business performance. Deep understanding and large experience allows us to build the most conversional online-stores for you.
+                            </p>
+                            <div class="services__advantages">
+                                <h3 class="advantages__title">Advantages</h3>
+                                <ul class="advantages__list">
+                                    <li class="advantages__item"><span>-</span> Continuous improvements</li>
+                                    <li class="advantages__item"><span>-</span> Quality</li>
+                                    <li class="advantages__item"><span>-</span> Efficiency</li>
+                                </ul>
+                            </div>
+                            <button class="services__order-button">
+                                I want to order!
+                            </button>
+                        </div>
+                        <div class="services__item">
+                            <p class="services__description">
+                                We offer ongoing support and updates to ensure that your software solutions remain up-to-date and fully functional. Our support team is always ready to fix any issues or concerns that arise, so we provide regular updates to improve performance and add new features if needed. Our goal is to provide our clients with peace of mind and ensure that their software solutions continue to meet their needs over time.
+                            </p>
+                            <div class="services__advantages">
+                                <h3 class="advantages__title">Advantages</h3>
+                                <ul class="advantages__list">
+                                    <li class="advantages__item"><span>-</span> Communication</li>
+                                    <li class="advantages__item"><span>-</span> Improvement</li>
+                                    <li class="advantages__item"><span>-</span> Expertise</li>
+                                </ul>
+                            </div>
+                            <button class="services__order-button">
+                                I want to order!
+                            </button>
+                        </div>
+                        <div class="services__item">
+                            <p class="services__description">
+                                We specialize in developing customized bots that can automate tasks and improve efficiency. We can create bots for a wide range of applications, including customer service, social media, and sales, among others. Our goal is to provide you with cutting-edge technology that improves their productivity and enhances their customer experience.
+                            </p>
+                            <div class="services__advantages">
+                                <h3 class="advantages__title">Advantages</h3>
+                                <ul class="advantages__list">
+                                    <li class="advantages__item"><span>-</span> Automation</li>
+                                    <li class="advantages__item"><span>-</span> Innovation</li>
+                                    <li class="advantages__item"><span>-</span> Quality</li>
+                                </ul>
+                            </div>
+                            <button class="services__order-button">
+                                I want to order!
+                            </button>
+                        </div>
+                        <div class="services__item">
+                            <p class="services__description">
+                                We offer website transferring services for clients who want to move their website from one platform to another. Our team of developers can ensure that the transition is smooth and seamless, and that the website remains fully functional throughout the process. Our goal is to minimize any disruptions to our clients' online presence and ensure that their website continues to meet their business needs.
+                            </p>
+                            <div class="services__advantages">
+                                <h3 class="advantages__title">Advantages</h3>
+                                <ul class="advantages__list">
+                                    <li class="advantages__item"><span>-</span> Skills</li>
+                                    <li class="advantages__item"><span>-</span> Experience</li>
+                                    <li class="advantages__item"><span>-</span> Result</li>
+                                </ul>
+                            </div>
+                            <button class="services__order-button">
+                                I want to order!
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="portfolio" class = "page__portfolio portfolio">
+            <div class = "portfolio__container">
+                <h2 class="portfolio__title title"><span>/ </span>Our projects</h2>
+                <div class="project__slider swiper-container">
+                    <div class="project__slider-wrapper swiper-wrapper">
+                        <div class="project__slider-slide swiper-slide">
+                            <div class="image__block-swiper">
+                                <img src="img/projects/01.png" alt="Project">
+                            </div>
+                            <div class="text__block-swiper">
+                                <p class="swiper__number-project">01 /</p>
+                                <div class="swiper__texts">
+                                    <h3 class="swiper__title-project">Marketplace</h3>
+                                    <p class="text__project">
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id impedit iusto amet? Commodi praesentium a, dolor, nobis enim consectetur et tenetur ipsum fugit beatae distinctio?
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project__slider-slide swiper-slide">
+                            <div class="image__block-swiper">
+                                <img src="img/projects/02.png" alt="Project">
+                            </div>
+                            <div class="text__block-swiper">
+                                <p class="swiper__number-project">02 /</p>
+                                <div class="swiper__texts">
+                                    <h3 class="swiper__title-project">Web-Service</h3>
+                                    <p class="text__project">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum ab, ut inventore nesciunt provident harum quae pariatur, a at quibusdam non accusamus magnam tenetur exercitationem.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project__slider-slide swiper-slide">
+                            <div class="image__block-swiper">
+                                <img src="img/projects/03.png" alt="Project">
+                            </div>
+                            <div class="text__block-swiper">
+                                <p class="swiper__number-project">03 /</p>
+                                <div class="swiper__texts">
+                                    <h3 class="swiper__title-project">Delivery Service</h3>
+                                    <p class="text__project">
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic asperiores ea magni voluptatum adipisci doloribus vel? Voluptatem nam id, corporis consectetur similique sint nobis cupiditate.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+        <section id="feedback" class = "page__feedback feedback">
+            <div class = "feedback__container">
+                <div class="feedback__content">
+                    <div class="feedback__title-block">
+                        <h2 class="feedback__title">Have an idea?<br>Tell us about it!</h2>
+                    </div>
+                    <div class="feedback__form-block">
+                        <form class="feedback__form">
+                            <div class="form__image-block">
+                                <img src="img/mail-image.png" alt="Mail">
+                            </div>
+                            <label class="feedback-name__label">Enter a name!</label>
+                            <input type="text" placeholder="Name">
+                            <select name="type-of-contact" id="type-of-contact" class="type-of-contact" onchange="ShowType()">
+                                <option value="Phone" selected>Phone</option>
+                                <option value="E-mail">E-mail</option>
+                                <option value="Telegram">Telegram</option>
+                            </select>
+                            <label class="feedback-contact-type__label"></label>
+                            <input id="feedback__contact-link" type="text" placeholder="Enter your phone number here" class="contact-type-input">
+                            <textarea placeholder="Message" class="feedback__message"></textarea>
+                            <button type="submit" class="feedback__button">Send</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="brief" class = "page__brief brief">
+            <div class = "brief__container">
+                <div class="brief__title title"><span>/ </span>Brief</div>
+                <div class="brief__content">
+                    <div class="brief__texts">
+                        <p class="brief__description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quo magni, eveniet quod incidunt blanditiis dolor, id eligendi doloribus consequatur atque odit fugit voluptatum possimus delectus illum exercitationem nemo ad! Cum non numquam debitis saepe ut a aliquid molestiae laboriosam.
+                        </p>
+                        <h3 class="brief__advantages advantages__title">Advantages</h3>
+                        <ul class="brief__advantages-list">
+                            <li class="brief__advantages-item advantages__item"><span>-</span> Saves time</li>
+                            <li class="brief__advantages-item advantages__item"><span>-</span> Quickly introduces the course of affairs</li>
+                            <li class="brief__advantages-item advantages__item"><span>-</span> Helps to understand the scope of work</li>
+                        </ul>
+                        <button class="brief__button">Fill now</button>
+                    </div>
+                    <div class="brief__image">
+                        <img src="img/brief-1.png" alt="Notebook">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="faq" class = "page__faq faq">
+            <div class = "faq__container">
+                <div class="faq__content">
+                    <div class="faq__title-block">
+                        <h2 class="faq__title">Answers to frequently asked questions</h2>
+                    </div>
+                    <div class="faq__items-block">
+                        <div class="faq__items">
+                            <div class="faq__item">
+                                <div class="faq__item-visible">
+                                    <p class="faq__item-title">Do I need to sign a contract before work?</p>
+                                    <button class="faq__item-open"><img src="img/faq__arrow.png" alt="arrow"></button>
+                                </div>
+                                <div class="faq__answer-block">
+                                    <p class="faq__item-answer">
+                                        Yes, after discussing the work plan, we sign the contract together using a digital signature.<br><br>The contract regulates the entire process of work, payments, any unforeseen circumstances and other important parts of the project. This document protects both parties - both the customer and the contractor.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="faq__item">
+                                <div class="faq__item-visible">
+                                    <p class="faq__item-title">Can I get a refund after payment?</p>
+                                    <button class="faq__item-open"><img src="img/faq__arrow.png" alt="arrow"></button>
+                                </div>
+                                <div class="faq__answer-block">
+                                    <p class="faq__item-answer">
+                                        Yes, you can.<br><br>How it works: In any case, 5% and a bank commission are deducted from the refund amount. Funds are returned only for those stages of the project that have not been started. All work that has been completed and paid for is sent to the customer. Stages that have been started are always completed (at the request of the customer).
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="faq__item">
+                                <div class="faq__item-visible">
+                                    <p class="faq__item-title">How is payment made?</p>
+                                    <button class="faq__item-open"><img src="img/faq__arrow.png" alt="arrow"></button>
+                                </div>
+                                <div class="faq__answer-block">
+                                    <p class="faq__item-answer">
+                                        There are two payment options: full subscription and installment subscription.<br><br>Full subscription involves the transfer of the entire amount for the project immediately at the beginning of cooperation.<br><br>Staged subscription involves paying in installments for each stage (or several).<br><br>An invoice (check) with information about the paid service or stage is attached to each payment transaction.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="faq__item">
+                                <div class="faq__item-visible">
+                                    <p class="faq__item-title">Is it possible to improve an existing site?</p>
+                                    <button class="faq__item-open"><img src="img/faq__arrow.png" alt="arrow"></button>
+                                </div>
+                                <div class="faq__answer-block">
+                                    <p class="faq__item-answer">
+                                        No, just create a site from scratch. The existing site can be used as an example for design, content, etc., but this does not imply a reduction in the cost of the service.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="faq__item">
+                                <div class="faq__item-visible">
+                                    <p class="faq__item-title">Is it possible to choose only one stage and not the entire service?</p>
+                                    <button class="faq__item-open"><img src="img/faq__arrow.png" alt="arrow"></button>
+                                </div>
+                                <div class="faq__answer-block">
+                                    <p class="faq__item-answer">
+                                        No, it is only possible to order a full service.<br><br>In some cases, at the request of the customer and prior discussion, it is possible to exclude 1-2 stages from the service. The cost of a project that contains fewer stages of work is reduced.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contacts" class = "page__contacts contacts">
+            <div class = "contacts__container">
+                <div class="contacts__content">
+                    <div class="contacts__address-block">
+                        <div class="contacts__email-div">
+                            <a href="mailto: team@vnv.solutions" class="contacts__email">
+                                team@vnv.solutions
+                            </a>
+                        </div>
+                        <p class="contacts__address">
+                            Karla Miklʹosha Street, 7
+                            Lviv, Ukraine
+                        </p>
+                    </div>
+                    <div class="contacts__social">
+                        <a href="https://www.facebook.com/profile.php?id=100088433736254" class="contacts__social-item">Facebook</a>
+                        <a href="https://instagram.com/vnv_solutions?igshid=MWI4MTIyMDE=" class="contacts__social-item">Instagram</a>
+                        <a href="https://t.me/vnv_solutions" class="contacts__social-item">Telegram</a>
+                        <a href="https://www.linkedin.com/company/vnv-tech/" class="contacts__social-item">Linkedin</a>
+                        <a href="https://www.tiktok.com/@vnvsolutions?_t=8YVB28bloQP&_r=1" class="contacts__social-item">TikTok</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2.6.4/dist/email.min.js"></script>
+    <script src="js/mine.js"></script>
+</body>
+</html>
